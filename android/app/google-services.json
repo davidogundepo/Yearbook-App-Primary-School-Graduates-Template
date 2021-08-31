@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "675380318018",
+    "project_id": "primary-s-graduates-template",
+    "storage_bucket": "primary-s-graduates-template.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:675380318018:android:b641415d78b268bec442db",
+        "android_client_info": {
+          "package_name": "com.icdatinnovations.primary_school_graduates"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "675380318018-uigo4tdsidupndvc6ujguanokpvd0oas.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.icdatinnovations.primary_school_graduates",
+            "certificate_hash": "35a7de7f844c9b3817d4f98afe7048aeb8437cef"
+          }
+        },
+        {
+          "client_id": "675380318018-v1ko46kpn2v2h251nc6i9tq1gemjb8l0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALcqglYHU9yFe8RuVmmxltfwgxZQbsFoc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "675380318018-v1ko46kpn2v2h251nc6i9tq1gemjb8l0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
