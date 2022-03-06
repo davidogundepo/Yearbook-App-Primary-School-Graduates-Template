@@ -31,7 +31,7 @@ String aboutSchool = "About $schoolName";
 String acronymMeanings = "Acronym Meanings";
 String aboutApp = "About App";
 
-String imgAsset = "assets/images/proprietor.jpg";
+String imgAsset = "assets/images/thrown_mgmt.jpeg";
 
 
 Color backgroundColor = Colors.blue;
@@ -258,6 +258,7 @@ class _MyManagementBodyPage extends State<MyManagementBodyPage> {
                                             color: textColor
                                           ),),
                                           onTap: () {
+                                            Navigator.of(context).pop(false);
                                             navigateToWhoWeArePage(context);
                                           }
                                       ),
@@ -269,6 +270,7 @@ class _MyManagementBodyPage extends State<MyManagementBodyPage> {
                                               color: textColor
                                           ),),
                                         onTap: () {
+                                          Navigator.of(context).pop(false);
                                           navigateToAboutSchoolDetailsPage(context);
                                         },
                                       ),
@@ -280,6 +282,7 @@ class _MyManagementBodyPage extends State<MyManagementBodyPage> {
                                                 color: textColor
                                             ),),
                                           onTap: () {
+                                            Navigator.of(context).pop(false);
                                             navigateToAcronymsMeaningsPage(context);
                                           }
                                       ),
@@ -291,6 +294,7 @@ class _MyManagementBodyPage extends State<MyManagementBodyPage> {
                                               color: textColor
                                           ),),
                                         onTap: () {
+                                          Navigator.of(context).pop(false);
                                           navigateToAboutAppDetailsPage(context);
                                         },
                                       ),
@@ -324,7 +328,7 @@ class _MyManagementBodyPage extends State<MyManagementBodyPage> {
                       title: Center(
                         heightFactor: 0.6,
                         child: Text(thrownName,
-                            style: GoogleFonts.amaticSC(
+                            style: GoogleFonts.abel(
                               color: textColor,
                                 fontSize: 26.0,
                                 fontWeight: FontWeight.bold

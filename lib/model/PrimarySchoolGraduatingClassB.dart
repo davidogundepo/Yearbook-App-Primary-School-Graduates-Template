@@ -47,7 +47,7 @@ class PrimarySchoolGraduatingClassB {
     snapchat = data['snapchat'];
     tikTok = data['tiktok'];
     dob = data['d_o_b'];
-    favSubject = data['fav_subjects'];
+    favSubject = data['fav_subject'];
     favSchoolActivity = data['fav_school_activity'];
     favSport = data['fav_sport_in_campus'];
     favClassmate = data['fav_classmate'];

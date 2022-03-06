@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:firebase_analytics/firebase_analytics.dart';
 import 'package:firebase_analytics/observer.dart';
 import 'package:firebase_core/firebase_core.dart';
@@ -23,39 +25,40 @@ void main() async {
   await Firebase.initializeApp();
   FirebaseCrashlytics.instance.setCrashlyticsCollectionEnabled(true);
   FlutterError.onError = FirebaseCrashlytics.instance.recordFlutterError;
-  runApp(
-          MultiProvider(
-              providers: [
-                ChangeNotifierProvider(
-                  create: (context) => PrimarySchoolGraduatingClassANotifier(),
-                ),
-                ChangeNotifierProvider(
-                  create: (context) => PrimarySchoolGraduatingClassBNotifier(),
-                ),
-                ChangeNotifierProvider(
-                  create: (context) => PrimarySchoolGraduatingClassCNotifier(),
-                ),
-                ChangeNotifierProvider(
-                  create: (context) => ClassPrefectsNotifier(),
-                ),
-                ChangeNotifierProvider(
-                  create: (context) => GraduatesClassTeachersNotifier(),
-                ),
-                ChangeNotifierProvider(
-                  create: (context) => ManagementBodyNotifier(),
-                ),
-                ChangeNotifierProvider(
-                  create: (context) => SchoolArialNotifier(),
-                ),
-                ChangeNotifierProvider(
-                  create: (context) => AchievementsNotifier(),
-                ),
-                ChangeNotifierProvider(
-                  create: (context) => SideBarNotifier(),
-                ),
-              ],
-              child: MyApp()
+  runZonedGuarded(() {
+    runApp(MultiProvider(
+        providers: [
+          ChangeNotifierProvider(
+            create: (context) => PrimarySchoolGraduatingClassANotifier(),
           ),
+          ChangeNotifierProvider(
+            create: (context) => PrimarySchoolGraduatingClassBNotifier(),
+          ),
+          ChangeNotifierProvider(
+            create: (context) => PrimarySchoolGraduatingClassCNotifier(),
+          ),
+          ChangeNotifierProvider(
+            create: (context) => ClassPrefectsNotifier(),
+          ),
+          ChangeNotifierProvider(
+            create: (context) => GraduatesClassTeachersNotifier(),
+          ),
+          ChangeNotifierProvider(
+            create: (context) => ManagementBodyNotifier(),
+          ),
+          ChangeNotifierProvider(
+            create: (context) => SchoolArialNotifier(),
+          ),
+          ChangeNotifierProvider(
+            create: (context) => AchievementsNotifier(),
+          ),
+          ChangeNotifierProvider(
+            create: (context) => SideBarNotifier(),
+          ),
+        ],
+        child: MyApp()
+    ));
+    }, FirebaseCrashlytics.instance.recordError
   );
 }
 
@@ -91,6 +94,15 @@ class MyApp extends StatefulWidget {
         navigatorObservers: [
           FirebaseAnalyticsObserver(analytics: analytics),
         ],
+        // builder: (context, home) {
+        //   return Overlay(
+        //     initialEntries: [
+        //       OverlayEntry(builder: (context) => SideBarLayout()
+        //       ),
+        //     ],
+        //   );
+        // },
+        initialRoute: "home",
       );
     }
 

@@ -31,7 +31,7 @@ String aboutSchool = "About $schoolName";
 String acronymMeanings = "Acronym Meanings";
 String aboutApp = "About App";
 
-String imgAsset = "assets/images/hallel_18.jpg";
+String imgAsset = "assets/images/thrown_seven.jpeg";
 
 Color backgroundColor = Color.fromRGBO(242, 243, 244, 1);
 Color appBarTextColor = Colors.white;
@@ -332,7 +332,7 @@ class _MyClassPrefectsPage extends State<MyClassPrefectsPage> {
                       title: Center(
                         heightFactor: 0.6,
                         child: Text(thrownName,
-                            style:  GoogleFonts.amaticSC(
+                            style:  GoogleFonts.abel(
                               color: textColor,
                                 fontSize: 26.0,
                                 fontWeight: FontWeight.bold

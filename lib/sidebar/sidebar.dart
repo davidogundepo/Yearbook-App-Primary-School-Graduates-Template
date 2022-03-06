@@ -32,7 +32,7 @@ String exitAppSubtitle = "Do you really really want to?";
 String exitAppNo = "Oh No";
 String exitAppYes = "I Have To";
 
-String imgAsset = "assets/images/hallel_9.jpg";
+String imgAsset = "assets/images/thrown_five.jpeg";
 
 Color gradientColor = Colors.indigo;
 Color gradientColorTwo = Colors.cyan;
@@ -159,8 +159,6 @@ class _SideBarState extends State<SideBar> with SingleTickerProviderStateMixin<S
 //        var d = "Iphone 5 | Small Phone";
 //        wittyWidth = screeWidth = screeWidth - 145;
 //      }
-
-
 
 
     return StreamBuilder<bool>(

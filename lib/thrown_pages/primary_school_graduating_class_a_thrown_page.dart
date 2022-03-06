@@ -50,7 +50,7 @@ String appOverviewSharedPreferencesContentTwo = "Our vision is to raise the tota
 String appOverviewSharedPreferencesContentThree = "Welcome to our inventory, do read through and know more!";
 String appOverviewSharedPreferencesButton = "Awesome";
 
-String imgAsset = "assets/images/hallel_5.jpg";
+String imgAsset = "assets/images/thrown_one.jpg";
 
 Color backgroundColor = Color.fromRGBO(222, 93, 131, 1);
 Color appBarTextColor = Colors.white;
@@ -129,7 +129,7 @@ class _MyPrimarySchoolGraduatingClassAPage extends State<MyPrimarySchoolGraduati
                     ),
                   ),
                   Padding(
-                    padding: const EdgeInsets.only(left: 60),
+                    padding: const EdgeInsets.only(left: 40),
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: <Widget>[
@@ -453,6 +453,7 @@ class _MyPrimarySchoolGraduatingClassAPage extends State<MyPrimarySchoolGraduati
                                               color: textColor,
                                             ),),
                                           onTap: () {
+                                            Navigator.of(context).pop(false);
                                             navigateToWhoWeArePage(context);
                                           }
                                       ),
@@ -463,6 +464,7 @@ class _MyPrimarySchoolGraduatingClassAPage extends State<MyPrimarySchoolGraduati
                                             color: textColor,
                                           ),),
                                         onTap: () {
+                                          Navigator.of(context).pop(false);
                                           navigateToAboutSchoolDetailsPage(context);
                                         },
                                       ),
@@ -473,6 +475,7 @@ class _MyPrimarySchoolGraduatingClassAPage extends State<MyPrimarySchoolGraduati
                                               color: textColor,
                                             ),),
                                           onTap: () {
+                                            Navigator.of(context).pop(false);
                                             navigateToAcronymsMeaningsPage(context);
                                           }
                                       ),
@@ -483,6 +486,7 @@ class _MyPrimarySchoolGraduatingClassAPage extends State<MyPrimarySchoolGraduati
                                             color: textColor,
                                           ),),
                                         onTap: () {
+                                          Navigator.of(context).pop(false);
                                           navigateToAboutAppDetailsPage(context);
                                         },
                                       ),
@@ -517,7 +521,7 @@ class _MyPrimarySchoolGraduatingClassAPage extends State<MyPrimarySchoolGraduati
                         heightFactor: 0.6,
                         child: Text(thrownName,
                             textAlign: TextAlign.center,
-                            style: GoogleFonts.amaticSC(
+                            style: GoogleFonts.abel(
                               color: textColor,
                               fontSize: 26.0,
                               fontWeight: FontWeight.bold
