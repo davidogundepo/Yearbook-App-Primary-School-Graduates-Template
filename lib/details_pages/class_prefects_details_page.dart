@@ -12,15 +12,16 @@ import 'package:material_design_icons_flutter/material_design_icons_flutter.dart
 String positionEnforcedTitle = "Position Enforced\n";
 
 
-Color backgroundColor = Color.fromRGBO(254, 250, 239, 1);
-Color appBarBackgroundColor = Color.fromRGBO(254, 255, 236, 1);
-Color appBarIconColor = Colors.blueGrey;
+Color backgroundColor = Color.fromRGBO(187, 100, 100, 1);
+Color appBarBackgroundColor = Color.fromRGBO(187, 100, 100, 1);
+Color appBarIconColor = Color.fromRGBO(254, 250, 239, 1);
 Color materialBackgroundColor = Colors.transparent;
-Color shapeDecorationColor = Color.fromRGBO(254, 255, 236, 1);
-Color cardBackgroundColor = Colors.blueGrey;
-Color splashColor = Color.fromRGBO(254, 255, 236, 1);
-Color textColor = Color.fromRGBO(254, 255, 236, 1);
-Color iconColor = Color.fromRGBO(254, 255, 236, 1);
+Color shapeDecorationColor = Colors.white;
+Color cardBackgroundColor = Color.fromRGBO(222, 135, 135, 1.0);
+Color splashColor = Color.fromRGBO(254, 250, 239, 1);
+Color textColor = Color.fromRGBO(254, 250, 239, 1);
+Color textColorTwo = Color.fromRGBO(187, 100, 100, 1);
+Color iconColor = Color.fromRGBO(254, 250, 239, 1);
 Color confettiColorOne = Colors.green;
 Color confettiColorTwo = Colors.blue;
 Color confettiColorThree = Colors.pink;
@@ -28,7 +29,7 @@ Color confettiColorFour = Colors.orange;
 Color confettiColorFive = Colors.purple;
 Color confettiColorSix = Colors.brown;
 Color confettiColorSeven = Colors.white;
-Color confettiColorEight = Colors.blueGrey;
+Color confettiColorEight = Color.fromRGBO(215, 125, 125, 1.0);
 Color confettiColorNine = Colors.redAccent;
 Color confettiColorTen = Colors.teal;
 Color confettiColorEleven = Colors.indigoAccent;
@@ -198,7 +199,7 @@ class _ClassPrefectDetailsPage extends State<ClassPrefectDetailsPage>{
                                     TextSpan(
                                         text: positionEnforcedTitle,
                                         style: GoogleFonts.aBeeZee(
-                                          color: textColor,
+                                          color: textColorTwo,
                                           fontSize: 19,
                                           fontWeight: FontWeight.bold,
                                         )
@@ -206,7 +207,7 @@ class _ClassPrefectDetailsPage extends State<ClassPrefectDetailsPage>{
                                     TextSpan(
                                         text: ' '+classPrefectsNotifier.currentClassPrefects.positionEnforced,
                                         style: GoogleFonts.trykker(
-                                          color: textColor,
+                                          color: textColorTwo,
                                           fontSize: 19,
                                           fontWeight: FontWeight.w300,
                                         )

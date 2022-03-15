@@ -52,19 +52,19 @@ String appOverviewSharedPreferencesButton = "Awesome";
 
 String imgAsset = "assets/images/thrown_one.jpg";
 
-Color backgroundColor = Color.fromRGBO(222, 93, 131, 1);
+Color backgroundColor = Color.fromRGBO(21, 29, 59, 1);
 Color appBarTextColor = Colors.white;
-Color appBarBackgroundColor = Colors.pink[300];
+Color appBarBackgroundColor = Color.fromRGBO(21, 29, 59, 2);
 Color appBarIconColor = Colors.white;
 Color modalColor = Colors.transparent;
-Color modalBackgroundColor = Colors.pink[300];
+Color modalBackgroundColor = Color.fromRGBO(21, 29, 59, 1);
 Color materialBackgroundColor = Colors.transparent;
 Color cardBackgroundColor = Colors.white;
-Color splashColor = Colors.pinkAccent;
+Color splashColor = Color.fromRGBO(49, 63, 117, 1.0);
 Color iconColor = Colors.white;
 Color textColor = Colors.white;
 Color textColorTwo = Colors.white70;
-Color dialogBackgroundColor = Color.fromRGBO(222, 93, 131, 1);
+Color dialogBackgroundColor = Color.fromRGBO(21, 29, 59, 1);
 Color borderColor = Colors.black;
 
 

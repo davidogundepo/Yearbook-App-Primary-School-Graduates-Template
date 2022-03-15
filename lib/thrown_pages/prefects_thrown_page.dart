@@ -33,21 +33,21 @@ String aboutApp = "About App";
 
 String imgAsset = "assets/images/thrown_seven.jpeg";
 
-Color backgroundColor = Color.fromRGBO(242, 243, 244, 1);
+Color backgroundColor = Color.fromRGBO(187, 100, 100, 1);
 Color appBarTextColor = Colors.white;
-Color appBarBackgroundColor = Color.fromRGBO(254, 250, 239, 1);
+Color appBarBackgroundColor = Color.fromRGBO(187, 100, 100, 1);
 Color appBarIconColor = Colors.white;
 Color modalColor = Colors.transparent;
-Color modalBackgroundColor = Color.fromRGBO(254, 250, 239, 1);
+Color modalBackgroundColor = Color.fromRGBO(187, 100, 100, 1);
 Color materialBackgroundColor = Colors.transparent;
 Color cardBackgroundColor = Colors.white;
 Color splashColor = Colors.white;
 Color splashColorTwo = Colors.black87;
-Color iconColor = Color.fromRGBO(254, 250, 239, 1);
-Color iconColorTwo = Colors.blueGrey;
-Color textColor = Colors.blueGrey;
-Color textColorTwo = Colors.white70;
-Color dialogBackgroundColor = Color.fromRGBO(242, 243, 244, 1);
+Color iconColor = Color.fromRGBO(215, 125, 125, 1.0);
+Color iconColorTwo = Color.fromRGBO(254, 250, 239, 1);
+Color textColor = Color.fromRGBO(254, 250, 239, 1);
+Color textColorTwo = Color.fromRGBO(254, 250, 239, 1);
+Color dialogBackgroundColor = Color.fromRGBO(187, 100, 100, 1);
 Color borderColor = Colors.black;
 
 

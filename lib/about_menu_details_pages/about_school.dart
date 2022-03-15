@@ -78,22 +78,24 @@ double teachingStaffPopulation = 85;
 double nonTeachingStaffPopulation = 32;
 
 
-Color backgroundColor = Colors.blueGrey[900];
+Color backgroundColor = Color.fromRGBO(120, 97, 128, 1.0);
 Color cardBackgroundColor = Colors.black38;
-Color appBarIconColor = Colors.blueGrey;
-Color appBarTextColor = Colors.blueGrey;
-Color appBarBackgroundColor = Colors.blueGrey[800];
-Color cardTextColor = Colors.blueGrey;
-Color boxDecorationColor = Colors.blueGrey;
+Color appBarIconColor = Color.fromRGBO(158, 134, 169, 1.0);
+Color appBarTextColor = Color.fromRGBO(158, 134, 169, 1.0);
+Color appBarBackgroundColor = Color.fromRGBO(99, 78, 107, 1.0);
+Color cardBottomColor = Color.fromRGBO(158, 134, 169, 1.0);
+Color cardTextColor = Colors.white70;
+Color splashColor = Color.fromRGBO(159, 76, 76, 1.0);
+Color boxDecorationColor = Color.fromRGBO(92, 70, 103, 1.0);
 Color chartBackgroundColor = Colors.grey[200];
 Color materialColor = Colors.transparent;
-Color textColor = Colors.blueGrey[900];
-Color firstSchoolChartColor = Colors.blueGrey;
-Color secondSchoolChartColor = Colors.deepOrangeAccent;
-Color thirdSchoolChartColor = Colors.yellow;
-Color fourthSchoolChartColor = Colors.cyan;
-Color firstStudentChartColor = Colors.blueGrey;
-Color secondStudentChartColor = Colors.deepOrangeAccent;
+Color textColor = Color.fromRGBO(99, 78, 107, 1.0);
+Color firstSchoolChartColor = Color.fromRGBO(158, 134, 169, 1.0);
+Color secondSchoolChartColor = Color.fromRGBO(53, 73, 95, 1.0);
+Color thirdSchoolChartColor = Color.fromRGBO(90, 111, 129, 1.0);
+Color fourthSchoolChartColor = Color.fromRGBO(159, 76, 76, 1.0);
+Color firstStudentChartColor = Color.fromRGBO(158, 134, 169, 1.0);
+Color secondStudentChartColor = Color.fromRGBO(53, 73, 95, 1.0);
 
 
 
@@ -169,7 +171,7 @@ class _AboutSchoolDetailsState extends State<AboutSchoolDetails> {
                 child: Material (
                   color: materialColor,
                   child: InkWell(
-                    splashColor: cardTextColor,
+                    splashColor: splashColor,
                     onTap: () {},
                     child: Padding(
                       padding: const EdgeInsets.only(top: 5, bottom: 5),
@@ -410,7 +412,7 @@ class _AboutSchoolDetailsState extends State<AboutSchoolDetails> {
                 child: Material (
                   color: materialColor,
                   child: InkWell(
-                    splashColor: cardTextColor,
+                    splashColor: splashColor,
                     onTap: () {},
                     child: Padding(
                       padding: const EdgeInsets.only(bottom: 15, top: 15, left: 10, right: 10),
@@ -460,7 +462,7 @@ class _AboutSchoolDetailsState extends State<AboutSchoolDetails> {
                 child: Material(
                   color: materialColor,
                   child: InkWell(
-                    splashColor: cardTextColor,
+                    splashColor: splashColor,
                     onTap: () {},
                     child: SingleChildScrollView(
                       scrollDirection: Axis.vertical,
@@ -521,7 +523,7 @@ class _AboutSchoolDetailsState extends State<AboutSchoolDetails> {
                 child: Material (
                   color: materialColor,
                   child: InkWell(
-                    splashColor: cardTextColor,
+                    splashColor: splashColor,
                     onTap: () {},
                     child: Padding(
                       padding: const EdgeInsets.only(bottom: 15, top: 15, left: 10, right: 10),
@@ -571,7 +573,7 @@ class _AboutSchoolDetailsState extends State<AboutSchoolDetails> {
                 child: Material(
                   color: materialColor,
                   child: InkWell(
-                    splashColor: cardTextColor,
+                    splashColor: splashColor,
                     onTap: () {},
                     child: SingleChildScrollView(
                       scrollDirection: Axis.vertical,
@@ -642,7 +644,7 @@ class _AboutSchoolDetailsState extends State<AboutSchoolDetails> {
                 child: Material (
                   color: materialColor,
                   child: InkWell(
-                    splashColor: cardTextColor,
+                    splashColor: splashColor,
                     onTap: () {},
                     child: Padding(
                       padding: const EdgeInsets.only(top: 5, bottom: 5),
@@ -673,7 +675,7 @@ class _AboutSchoolDetailsState extends State<AboutSchoolDetails> {
                 child: Material (
                   color: materialColor,
                   child: InkWell(
-                    splashColor: cardTextColor,
+                    splashColor: splashColor,
                     onTap: () {},
                     child: Padding(
                       padding: const EdgeInsets.only(bottom: 15, top: 15, left: 10, right: 10),
@@ -822,7 +824,7 @@ class _AboutSchoolDetailsState extends State<AboutSchoolDetails> {
                 child: Material (
                   color: materialColor,
                   child: InkWell(
-                    splashColor: cardTextColor,
+                    splashColor: splashColor,
                     onTap: () {},
                     child: Padding(
                       padding: const EdgeInsets.only(bottom: 15, top: 15, left: 10, right: 10),
@@ -932,7 +934,7 @@ class _AboutSchoolDetailsState extends State<AboutSchoolDetails> {
                 child: Material (
                   color: materialColor,
                   child: InkWell(
-                    splashColor: cardTextColor,
+                    splashColor: splashColor,
                     onTap: () {},
                     child: Padding(
                       padding: const EdgeInsets.only(top: 5, bottom: 5),
@@ -979,7 +981,7 @@ class _AboutSchoolDetailsState extends State<AboutSchoolDetails> {
                     Container(
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.only(bottomLeft: Radius.circular(10), bottomRight: Radius.circular(10)),
-                        color: cardTextColor
+                        color: cardBottomColor
                       ),
                       child: ListTile(
                         title: Center(
@@ -1020,7 +1022,7 @@ class _AboutSchoolDetailsState extends State<AboutSchoolDetails> {
                 child: Material (
                   color: materialColor,
                   child: InkWell(
-                    splashColor: cardTextColor,
+                    splashColor: splashColor,
                     onTap: () {},
                     child: Padding(
                       padding: const EdgeInsets.only(top: 5, bottom: 5),
@@ -1070,7 +1072,7 @@ class _AboutSchoolDetailsState extends State<AboutSchoolDetails> {
                       Container(
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.only(bottomLeft: Radius.circular(10), bottomRight: Radius.circular(10)),
-                          color: cardTextColor
+                          color: cardBottomColor
                         ),
                         child: ListTile(
                           title: Center(

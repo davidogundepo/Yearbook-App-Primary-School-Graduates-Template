@@ -88,7 +88,8 @@ class MyApp extends StatefulWidget {
         debugShowCheckedModeBanner: false,
         title: 'Flutter Demo',
         theme: ThemeData(
-          primarySwatch: Colors.lightBlue,
+          primarySwatch: Colors.indigo,
+          // primaryColor: Colors.indigo[400],
         ),
         home: SideBarLayout(),
         navigatorObservers: [

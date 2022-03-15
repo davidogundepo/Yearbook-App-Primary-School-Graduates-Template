@@ -34,25 +34,25 @@ String exitAppYes = "I Have To";
 
 String imgAsset = "assets/images/thrown_five.jpeg";
 
-Color gradientColor = Colors.indigo;
-Color gradientColorTwo = Colors.cyan;
-Color linearGradientColor = Colors.blue;
-Color linearGradientColorTwo = Colors.lightBlueAccent;
-Color boxShadowColor = Colors.blueAccent;
+Color gradientColor = Color.fromRGBO(44, 50, 84, 1.0);
+Color gradientColorTwo = Color.fromRGBO(66, 72, 116, 1);
+Color linearGradientColor = Color.fromRGBO(66, 72, 116, 1);
+Color linearGradientColorTwo = Color.fromRGBO(80, 84, 133, 1.0);
+Color boxShadowColor = Color.fromRGBO(80, 84, 133, 1.0);
 Color dividerColor = Colors.white;
 Color materialBackgroundColor = Colors.transparent;
-Color shimmerBaseColor = Colors.white;
-Color shimmerHighlightColor = Colors.brown;
-Color shapeDecorationTextColor = Color.fromRGBO(46, 137, 112, 1);
-Color containerBackgroundColor = Colors.indigo;
-Color containerIconColor = Color(0xFF1BB5FD);
-Color dialogBackgroundColor = Colors.blue;
+Color shimmerBaseColor = Color.fromRGBO(96, 105, 153, 1.0);
+Color shimmerHighlightColor = Color.fromRGBO(96, 105, 153, 1.0);
+Color shapeDecorationTextColor = Color.fromRGBO(96, 105, 153, 1.0);
+Color containerBackgroundColor = Color.fromRGBO(44, 50, 84, 1.0);
+Color containerIconColor = Colors.white;
+Color dialogBackgroundColor = Color.fromRGBO(44, 50, 84, 1.0);
 Color dialogTextColor = Colors.white;
-Color splashColor = Colors.brown;
-Color splashColorTwo = Color.fromRGBO(46, 137, 112, 1);
+Color splashColor = Color.fromRGBO(125, 134, 172, 1.0);
+Color splashColorTwo = Color.fromRGBO(125, 134, 172, 1.0);
 Color splashColorThree = Colors.white;
 Color textColor = Colors.white;
-Color textColorTwo = Colors.brown[200];
+Color textColorTwo = Color.fromRGBO(80, 84, 133, 1.0);
 Color textShadowColor = Colors.white;
 
 class SideBar extends StatefulWidget {

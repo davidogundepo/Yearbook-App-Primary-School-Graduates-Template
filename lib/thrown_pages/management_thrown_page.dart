@@ -34,20 +34,20 @@ String aboutApp = "About App";
 String imgAsset = "assets/images/thrown_mgmt.jpeg";
 
 
-Color backgroundColor = Colors.blue;
-Color appBarBackgroundColor = Colors.blueAccent;
+Color backgroundColor = Color.fromRGBO(64, 30, 7, 1.0);
+Color appBarBackgroundColor = Color.fromRGBO(64, 30, 7, 1.0);
 Color appBarTextColor = Colors.white;
 Color appBarIconColor = Colors.white;
 Color modalColor = Colors.transparent;
-Color modalBackgroundColor = Colors.blue[300];
+Color modalBackgroundColor = Color.fromRGBO(64, 30, 7, 1.0);
 Color materialBackgroundColor = Colors.transparent;
 Color cardBackgroundColor = Colors.white;
-Color splashColor = Colors.blue;
+Color splashColor = Color.fromRGBO(64, 30, 7, 1.0);
 Color splashColorTwo = Colors.black87;
 Color iconColor = Colors.white;
 Color textColor = Colors.white;
 Color textColorTwo = Colors.white70;
-Color dialogBackgroundColor = Color.fromRGBO(86, 158, 128, 1);
+Color dialogBackgroundColor = Color.fromRGBO(64, 30, 7, 1.0);
 Color borderColor = Colors.black;
 
 class MyManagementBodyPage extends StatefulWidget with NavigationStates{

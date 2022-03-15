@@ -63,16 +63,17 @@ flutter_native_splash:
 
 
 flutter_app_name:
-  name: "NG Primary Sch ALMANAC Template"
+#  name: "NG Primary Sch ALMANAC Template"
+  name: "NG Pri Sch"
 
 flutter_icons:
   android: true
   ios: true
-  image_path: "assets/images/ng_primary_school_logo.jpeg"
+  image_path: "assets/images/ng_pri_icon.jpeg"
 
 
 dev_dependencies:
-  flutter_native_splash: ^1.2.3
+  flutter_native_splash: ^2.1.0
   flutter_test:
     sdk: flutter
 

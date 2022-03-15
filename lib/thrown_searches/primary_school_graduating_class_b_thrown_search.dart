@@ -9,19 +9,19 @@ import 'package:provider/provider.dart';
 import '../details_pages/primary_school_graduating_class_b_details_page.dart';
 import '../notifier/primary_school_graduating_class_b_notifier.dart';
 
-Color backgroundColor = Color.fromRGBO(222, 93, 131, 1);
+Color backgroundColor = Color.fromRGBO(216, 33, 72, 1);
 Color appBarTextColor = Colors.white;
-Color appBarBackgroundColor = Colors.pink[300];
+Color appBarBackgroundColor = Color.fromRGBO(190, 23, 56, 0.9137254901960784);
 Color appBarIconColor = Colors.white;
 Color modalColor = Colors.transparent;
-Color modalBackgroundColor = Colors.pink[300];
+Color modalBackgroundColor = Color.fromRGBO(190, 23, 56, 0.9137254901960784);
 Color materialBackgroundColor = Colors.transparent;
 Color cardBackgroundColor = Colors.white;
-Color splashColor = Colors.pinkAccent;
+Color splashColor = Color.fromRGBO(216, 33, 72, 0.43529411764705883);
 Color iconColor = Colors.white;
 Color textColor = Colors.white;
 Color textColorTwo = Colors.white70;
-Color dialogBackgroundColor = Color.fromRGBO(222, 93, 131, 1);
+Color dialogBackgroundColor = Color.fromRGBO(216, 33, 72, 1);
 Color borderColor = Colors.black;
 Color textHighlightColor = Colors.white;
 
