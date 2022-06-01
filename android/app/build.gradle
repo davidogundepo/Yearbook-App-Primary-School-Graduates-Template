@@ -28,6 +28,7 @@ apply plugin: 'com.google.gms.google-services'
 apply plugin: 'com.google.firebase.crashlytics'
 
 android {
+//    compileSdkVersion "android-S"
     compileSdkVersion 31
 
     sourceSets {
@@ -73,6 +74,7 @@ dependencies {
     implementation platform('com.google.firebase:firebase-bom:28.4.1')
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     implementation 'com.google.firebase:firebase-analytics'
+    implementation 'androidx.appcompat:appcompat:1.4.1'
     testImplementation 'junit:junit:4.13.1'
     androidTestImplementation 'androidx.test:runner:1.4.0'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
@@ -81,6 +83,9 @@ dependencies {
     implementation 'com.android.support:multidex:2.0.0'
     implementation 'com.google.firebase:firebase-crashlytics:18.2.1'
     implementation 'com.google.firebase:firebase-crashlytics-ndk'
-    implementation "com.airbnb.android:lottie:3.5.0"
+    implementation "com.airbnb.android:lottie:5.0.3"
     implementation "com.android.support.constraint:constraint-layout:2.0.4"
+    implementation "androidx.core:core-splashscreen:1.0.0-alpha01"
+    implementation 'androidx.core:core-ktx:1.7.0'
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1'
 }

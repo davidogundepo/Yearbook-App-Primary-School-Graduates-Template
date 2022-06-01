@@ -52,6 +52,13 @@ dependencies:
   flutter_icons: ^1.1.0
   lottie: ^1.1.0
   animated_splash_screen: ^1.1.0
+  showcaseview: ^1.1.5
+  syncfusion_flutter_datagrid: 20.1.47
+  syncfusion_flutter_datagrid_export: ^20.1.47-beta
+  syncfusion_localizations: ^20.1.47
+
+  flutter_localizations:
+    sdk: flutter
 
 flutter_native_splash:
   image: assets/images/about_app_sp.png

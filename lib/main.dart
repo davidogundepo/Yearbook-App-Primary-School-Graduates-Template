@@ -12,10 +12,10 @@ import './notifier/class_prefects_notifier.dart';
 import './notifier/graduates_class_teachers_notifier.dart';
 import './notifier/management_body_notifier.dart';
 import './notifier/school_arial_notifier.dart';
+import './notifier/tables_and_stats_notifier.dart';
 import './notifier/primary_school_graduating_class_a_notifier.dart';
 import './notifier/primary_school_graduating_class_b_notifier.dart';
 import './notifier/primary_school_graduating_class_c_notifier.dart';
-
 import './sidebar/sidebar_layout.dart';
 import 'notifier/sidebar_notifier.dart';
 
@@ -48,6 +48,9 @@ void main() async {
           ),
           ChangeNotifierProvider(
             create: (context) => SchoolArialNotifier(),
+          ),
+          ChangeNotifierProvider(
+            create: (context) => TablesAndStatsNotifier(),
           ),
           ChangeNotifierProvider(
             create: (context) => AchievementsNotifier(),
@@ -92,6 +95,13 @@ class MyApp extends StatefulWidget {
           // primaryColor: Colors.indigo[400],
         ),
         home: SideBarLayout(),
+
+        // home: ShowCaseWidget(
+        //   builder: Builder(
+        //     builder: (context) => SideBarLayout(),
+        //   ),
+        // ),
+
         navigatorObservers: [
           FirebaseAnalyticsObserver(analytics: analytics),
         ],

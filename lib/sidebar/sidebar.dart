@@ -35,7 +35,7 @@ String exitAppYes = "I Have To";
 String imgAsset = "assets/images/thrown_five.jpeg";
 
 Color gradientColor = Color.fromRGBO(44, 50, 84, 1.0);
-Color gradientColorTwo = Color.fromRGBO(66, 72, 116, 1);
+Color gradientColorTwo = Color.fromRGBO(108, 117, 174, 1.0);
 Color linearGradientColor = Color.fromRGBO(66, 72, 116, 1);
 Color linearGradientColorTwo = Color.fromRGBO(80, 84, 133, 1.0);
 Color boxShadowColor = Color.fromRGBO(80, 84, 133, 1.0);
@@ -443,7 +443,7 @@ class _SideBarState extends State<SideBar> with SingleTickerProviderStateMixin<S
                         alignment: Alignment.centerLeft,
                         child: AnimatedIcon(
                           progress: _animationController.view,
-                          icon: AnimatedIcons.menu_close,
+                          icon: AnimatedIcons.menu_arrow,
                           color: containerIconColor,
                           size: 25,
                         ),
