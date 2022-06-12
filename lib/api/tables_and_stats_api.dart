@@ -19,4 +19,8 @@ getTablesAndStats(TablesAndStatsNotifier tablesAndStatsNotifier) async {
   });
 
   tablesAndStatsNotifier.tablesAndStatsList = _tablesAndStatsList;
+
+  // Stream<QuerySnapshot> getStream() {
+  //   return snapshot.orderBy('employeeID', descending: false).snapshots();
+  // }
 }

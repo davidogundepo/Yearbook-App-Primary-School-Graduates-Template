@@ -5,7 +5,7 @@ import '../model/TablesAndStats.dart';
 
 
 class TablesAndStatsNotifier with ChangeNotifier {
-  List<TablesAndStats> _tablesAndStatsList = [];
+  List<TablesAndStats> _tablesAndStatsList = <TablesAndStats>[];
   TablesAndStats _currentTablesAndStats;
 
   UnmodifiableListView<TablesAndStats> get tablesAndStatsList => UnmodifiableListView(_tablesAndStatsList);
