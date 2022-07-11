@@ -90,6 +90,8 @@ PrimarySchoolGraduatingClassANotifier primarySchoolGraduatingClassANotifier;
 
 Map<int, Widget> userBIO;
 
+Widget ff;
+
 var _autoBio;
 var _bestMoment;
 var _dob;
@@ -635,6 +637,8 @@ class _SubPageState extends State<SubPage> {
         mainAxisSize: MainAxisSize.max,
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: <Widget>[
+
+
 
           (() {
             if (_autoBio.toString().isNotEmpty) {
@@ -2371,6 +2375,10 @@ class _SubPageState extends State<SubPage> {
         ],
       ),
     };
+
+
+
+
     super.initState();
   }
 

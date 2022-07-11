@@ -2,12 +2,10 @@ import 'dart:async';
 import 'dart:io';
 
 import 'package:cached_network_image/cached_network_image.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 import 'package:provider/provider.dart';
-import '../about_menu_details_pages/tables_and_stats.dart';
 import '../thrown_searches/primary_school_graduating_class_a_thrown_search.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import '../about_menu_details_pages/about_app.dart';
@@ -35,7 +33,6 @@ String exitAppYes = "I Have To";
 
 String whoWeAre = "Who We Are";
 String aboutSchool = "About $schoolName";
-String tablesAndStats = "Tables and Stats";
 String acronymMeanings = "Acronym Meanings";
 String aboutApp = "About App";
 
@@ -284,9 +281,6 @@ class _MyPrimarySchoolGraduatingClassAPage extends State<MyPrimarySchoolGraduati
   Future navigateToAboutSchoolDetailsPage(context) async {
     Navigator.push(context, MaterialPageRoute(builder: (context) => AboutSchoolDetails()));
   }
-  Future navigateToTablesAndStatsDetailsPage(context) async {
-    Navigator.push(context, MaterialPageRoute(builder: (context) => TablesAndStatsDetails()));
-  }
   Future navigateToWhoWeArePage(context) async {
     Navigator.push(context, MaterialPageRoute(builder: (context) => WhoWeAre()));
   }
@@ -409,7 +403,6 @@ class _MyPrimarySchoolGraduatingClassAPage extends State<MyPrimarySchoolGraduati
 
     aboutAppWelcomeDialog();
 
-
     super.initState();
   }
 
@@ -471,17 +464,6 @@ class _MyPrimarySchoolGraduatingClassAPage extends State<MyPrimarySchoolGraduati
                                         onTap: () {
                                           Navigator.of(context).pop(false);
                                           navigateToAboutSchoolDetailsPage(context);
-                                        },
-                                      ),
-                                      ListTile(
-                                        leading: new Icon(MdiIcons.tableOfContents, color: iconColor),
-                                        title: new Text(tablesAndStats,
-                                          style: GoogleFonts.zillaSlab(
-                                            color: textColor,
-                                          ),),
-                                        onTap: () {
-                                          Navigator.of(context).pop(false);
-                                          navigateToTablesAndStatsDetailsPage(context);
                                         },
                                       ),
                                       ListTile(
