@@ -13,6 +13,7 @@
 #import "FLTFirebaseCorePlugin.h"
 #import "FLTFirebasePlugin.h"
 #import "FLTFirebasePluginRegistry.h"
+#import "messages.g.h"
 
 FOUNDATION_EXPORT double firebase_coreVersionNumber;
 FOUNDATION_EXPORT const unsigned char firebase_coreVersionString[];

@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "messages.g.h"
+#import "CustomPigeonHeader.h"
 #import "FLTAuthStateChannelStreamHandler.h"
 #import "FLTIdTokenChannelStreamHandler.h"
 #import "FLTPhoneNumberVerificationStreamHandler.h"

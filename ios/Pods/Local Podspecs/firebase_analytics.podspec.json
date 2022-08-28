@@ -1,9 +1,9 @@
 {
   "name": "firebase_analytics",
-  "version": "8.3.4",
+  "version": "9.3.2",
   "summary": "Flutter plugin for Google Analytics for Firebase, an app measurement solution that provides insight on app usage and user engagement on Android and iOS.",
   "description": "Flutter plugin for Google Analytics for Firebase, an app measurement solution that provides insight on app usage and user engagement on Android and iOS.",
-  "homepage": "https://firebase.flutter.dev/docs/analytics/overview",
+  "homepage": "https://firebase.google.com/docs/analytics",
   "license": {
     "file": "../LICENSE"
   },
@@ -15,7 +15,7 @@
   "public_header_files": "Classes/Public/*.h",
   "private_header_files": "Classes/Private/*.h",
   "platforms": {
-    "ios": "9.0"
+    "ios": "10.0"
   },
   "dependencies": {
     "Flutter": [
@@ -25,12 +25,12 @@
 
     ],
     "Firebase/Analytics": [
-      "8.15.0"
+      "9.4.0"
     ]
   },
   "static_framework": true,
   "pod_target_xcconfig": {
-    "GCC_PREPROCESSOR_DEFINITIONS": "LIBRARY_VERSION=\\@\\\"8.3.4\\\" LIBRARY_NAME=\\@\\\"flutter-fire-analytics\\\"",
+    "GCC_PREPROCESSOR_DEFINITIONS": "LIBRARY_VERSION=\\@\\\"9.3.2\\\" LIBRARY_NAME=\\@\\\"flutter-fire-analytics\\\"",
     "DEFINES_MODULE": "YES"
   }
 }

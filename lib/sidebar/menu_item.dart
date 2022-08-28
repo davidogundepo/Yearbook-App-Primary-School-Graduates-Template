@@ -4,13 +4,13 @@ Color iconColor = Color.fromRGBO(110, 115, 167, 1.0);
 Color textColor = Colors.white;
 
 
-class MenuItem extends StatelessWidget {
+class MenuItems extends StatelessWidget {
 
   final IconData icon;
   final String title;
   final Function onTap;
 
-  const MenuItem({Key key, this.icon, this.title, this.onTap}) : super(key: key);
+  const MenuItems({Key key, this.icon, this.title, this.onTap}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
